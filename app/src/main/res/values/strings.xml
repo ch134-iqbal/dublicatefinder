@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Duplicate Finder</string>
+    <string name="hint">Pick a folder. Hashing and comparison happen entirely on this device — nothing is uploaded.</string>
+    <string name="pick_folder">Choose folder</string>
+    <string name="scan">Scan</string>
+    <string name="select_dupes">Select duplicates</string>
+    <string name="clear">Clear</string>
+    <string name="delete_n">Delete %1$d (%2$s)</string>
+    <string name="group_title">%1$d identical files</string>
+    <string name="group_subtitle">%1$s each · %2$s reclaimable</string>
+    <string name="file_meta">%1$s · %2$s</string>
+    <string name="summary">%1$d groups · %2$s reclaimable</string>
+    <string name="delete_title">Delete duplicates</string>
+    <string name="delete_message">Delete %1$d selected files? This cannot be undone.</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_done">Deleted %1$d, failed %2$d</string>
+    <string name="no_viewer">No installed app can open this file</string>
+
+    <string-array name="size_filters">
+        <item>Any size</item>
+        <item>1 KB or larger</item>
+        <item>1 MB or larger</item>
+        <item>10 MB or larger</item>
+    </string-array>
+</resources>

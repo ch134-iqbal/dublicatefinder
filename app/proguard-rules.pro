@@ -1,0 +1,5 @@
+-keep class com.ch134.duplicatefinder.data.** { *; }
+-keepclassmembers class * implements java.io.Serializable { *; }
+-dontwarn org.jetbrains.annotations.**
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
